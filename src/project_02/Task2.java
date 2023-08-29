@@ -17,7 +17,8 @@ public class Task2 {
         int digit5 = number % 10;
 
         String reverseNumber = "";
-        reverseNumber =  reverseNumber + digit5 + digit4 + digit3 + digit2 + digit1;
+        reverseNumber =  "" + digit5 + digit4 + digit3 + digit2 + digit1;
+//        System.out.println( "" +digit5 + digit4+ digit3 + digit2 + digit1);
         System.out.println(reverseNumber + " reverse string number");
 
         int result = digit5 * 10000;
