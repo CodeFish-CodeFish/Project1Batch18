@@ -27,7 +27,5 @@ public class Task6 {
         double given = givenTotalCents;
 
         System.out.println("$"+(given/100) + " will make  "+ quarters + " quarters "+ dimes + " dimes "+ nickels + " nickels " + pennies + " pennies" );
-
-
     }
 }
