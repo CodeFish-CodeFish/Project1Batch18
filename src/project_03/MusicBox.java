@@ -149,7 +149,7 @@ public class MusicBox {
                 System.out.println(chosenSong + " is playing now, please enjoy");
             }
 
-           // scanner.nextLine();
+            scanner.nextLine();
 
         } while (true);
 
